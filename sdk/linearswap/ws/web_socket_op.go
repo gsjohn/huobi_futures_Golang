@@ -1,13 +1,13 @@
-﻿package ws
+package ws
 
 import (
 	"container/list"
 	"encoding/json"
 	"fmt"
-	"huobi_futures_Golang/sdk/linearswap"
-	"huobi_futures_Golang/sdk/log"
-	"huobi_futures_Golang/sdk/reqbuilder"
-	"huobi_futures_Golang/sdk/wsbase"
+	"github.com/gsjohn/huobi_futures_Golang/sdk/linearswap"
+	"github.com/gsjohn/huobi_futures_Golang/sdk/log"
+	"github.com/gsjohn/huobi_futures_Golang/sdk/reqbuilder"
+	"github.com/gsjohn/huobi_futures_Golang/sdk/wsbase"
 	"reflect"
 	"strings"
 	"time"

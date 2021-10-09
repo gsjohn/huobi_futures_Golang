@@ -1,13 +1,13 @@
-﻿package restful
+package restful
 
 import (
 	"encoding/json"
 	"fmt"
-	"huobi_futures_Golang/sdk/linearswap"
-	requestorder "huobi_futures_Golang/sdk/linearswap/restful/request/order"
-	responseorder "huobi_futures_Golang/sdk/linearswap/restful/response/order"
-	"huobi_futures_Golang/sdk/log"
-	"huobi_futures_Golang/sdk/reqbuilder"
+	"github.com/gsjohn/huobi_futures_Golang/sdk/linearswap"
+	requestorder "github.com/gsjohn/huobi_futures_Golang/sdk/linearswap/restful/request/order"
+	responseorder "github.com/gsjohn/huobi_futures_Golang/sdk/linearswap/restful/response/order"
+	"github.com/gsjohn/huobi_futures_Golang/sdk/log"
+	"github.com/gsjohn/huobi_futures_Golang/sdk/reqbuilder"
 )
 
 type OrderClient struct {
